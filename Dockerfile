@@ -1,3 +1,4 @@
+#Updating to heroku:18 stack
 FROM heroku/heroku:18
 
 ADD entrypoint.sh /entrypoint.sh
