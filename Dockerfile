@@ -1,5 +1,5 @@
-#Updating to heroku:18 stack
-FROM debian:stretch
+#Updating to debian stretch-slim stack
+FROM debian:stretch-slim
 RUN apt-get update; apt-get install wget -y;
 ADD entrypoint.sh /entrypoint.sh
 
